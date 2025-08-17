@@ -16,6 +16,7 @@ export default function SearchHeader() {
                     height='40'
                     src='/google.png'
                     alt="Google Image"
+                    priority={false}
                 />
             </Link>
             <div className="flex-1">

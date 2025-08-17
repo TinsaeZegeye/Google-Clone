@@ -11,7 +11,7 @@ export default function Home() {
 
       {/* Body */}
       <div className="flex flex-col items-center mt-24">
-        <Image width='300' height='100' src='/google.png' alt="Google Image" />
+        <Image width='300' height='100' src='/google.png' alt="Google Image" priority={false} />
         <HomeSearch/>
       </div>
     </>
